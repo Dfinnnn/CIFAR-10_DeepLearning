@@ -1,19 +1,15 @@
-# Ignore the datasets and CSVs
+# Ignore the massive image folders
 train/
 test/
-trainLabels.csv
+
+# Ignore the Kaggle submission files
 sampleSubmission.csv
 submission.csv
 
-# Ignore saved model weights
-*.pth
-*.pt
-
-# Ignore Python cache files
+# Ignore Python cache and environments
 __pycache__/
 *.pyc
-
-# Ignore environment folders (if you use a virtual environment)
 venv/
 env/
 .env
+
