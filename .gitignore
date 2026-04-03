@@ -1,0 +1,19 @@
+# Ignore the datasets and CSVs
+train/
+test/
+trainLabels.csv
+sampleSubmission.csv
+submission.csv
+
+# Ignore saved model weights
+*.pth
+*.pt
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment folders (if you use a virtual environment)
+venv/
+env/
+.env
